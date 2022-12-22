@@ -1,0 +1,104 @@
+
+
+.containerService{
+    width: 100%;
+    height: 100vh;
+    padding:  0 8%;
+}
+.containerService h1{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 3px;
+    margin-bottom: 60px;
+    font-weight: 600;
+    position: relative;
+}
+.containerService h1::after{
+    content: '';
+    background-color: #FE4D29;
+    width: 150px;
+    height: 5px;
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.service{
+    text-align: center;
+    padding: 15px 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    background: transparent;
+    transition: transform 0.5s, background 0.5s;
+}
+ .service i {
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: #FE4D29;
+}
+.service h2{
+    font-weight: 600;
+    margin-bottom: 14px;
+}
+.service:hover{
+    background-color: #FE4D29;
+    color: white;
+    transform: scale(1.05);
+    
+}
+.service:hover i{
+    color: white;
+}
+
+
+
+.testimonals{
+    margin: 50px auto;
+}
+.testimonals h1{
+    text-align: center;
+    font-weight: bold;
+    color: #FE4D29;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.testimonals .row{
+    margin-top: 30px;
+}
+.col-md-4{
+    margin: 40px auto;
+}
+.profile{
+    padding: -70px 10px  10px;
+    background-color: #efefef;
+}
+.profile  img{
+    /* top: -60%; */
+    margin-top: -60px;
+    left: calc(50%, -60%);
+    border: 10px solid white;
+}
+.user{
+    width: 120px;
+    height: 120px;
+    border-radius: 50px;
+}
+.profile h3{
+    font-size: 20px;
+    margin-top: 15px;
+    color: #FE4D29;
+}
+span{
+    margin-bottom: 30px;
+    font-size: 12px;
+    color: #333;
+}
+blockquote{
+    margin: 10px;
+    font-size: 16px;
+    line-height: 20px;
+}

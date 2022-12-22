@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+body{
+ 
+   
+    font-family: 'Mulish', sans-serif;
+    line-height: 1.7;
+    color: #516171;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: 700 !important;
+    color: #092032;
+}
+a{
+    color: #092032;
+    text-decoration: none;
+    transition: all 0.4s ease;
+    font-weight: 500;
+}
+img{
+    width: 100%;
+
+}
+.bg-cover{
+    background-position: center !important;
+    background-size: cover !important;
+    background-position: center !important;
+}
+
+.top-nav{
+    background-color: #ff4d29;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.top-nav p{
+    margin-bottom: 0;
+    display: inline-block;
+    margin-right: 16px;
+    color: #fff;
+}
+
+.top-nav span{
+    vertical-align: middle;
+    margin: 2px;
+}
+.top-nav i {
+    vertical-align: middle;
+}
+
+.social-icons a {
+    width: 28px;
+    height: 28px;
+    display: inline-flex;
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.25);
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+}
+
+.social-icons a:hover {
+    background-color: #fff;
+    color: #516171;
+
+}
+
+.navbar{
+    box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.08);
+}
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link:active{
+    color: #ff4d29;
+    font-weight: 600;
+}
+.navbar-brand{
+    font-weight: 700;
+    font-size: 26px;
+    color: #092032;
+}
+.navbar-brand span{
+    color: #ff4d29;
+}
+
+.inputBorder{
+    border: 2px solid  #d63e20;
+    border-style: solid;
+    border-radius: 11px;
+}
+
+.btn{
+    padding: 9px 24px;
+    font-weight: 500;
+}
+.btn-brand{
+    background-color: #ff4d29;
+    color: #fff;
+    border-color: #ff4d29;
+}
+.btn-brand:hover{
+    color: #ffffff;
+    background-color: #d63e20;
+}
+.slide{
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../src/image/bg_banner1.jpg);
+}
+
