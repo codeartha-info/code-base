@@ -19,13 +19,13 @@ const Tesimonals = () => {
                 alt=""
               />
               <blockquote>
-                I have been working with <b>ShadowX</b> quite briefly on my
-                personal Startup. I really enjoyed working with <b>ShadowX</b>{" "}
+                I have been working with <b>CodeArtha</b> quite briefly on my
+                personal Startup. I really enjoyed working with <b>CodeArtha</b>{" "}
                 team and more I'm looking into the content they have created
                 more I'm sure it was money well spent. What I was also was happy
                 about was timing. We managed to finish the whole project way
-                before the deadline. I would recommend <b>ShadowX</b>'s team for
-                a content creation task to my friend.
+                before the deadline. I would recommend <b>CodeArtha</b>'s team
+                for a content creation task to my friend.
               </blockquote>
               <h3 style={{ paddingBottom: 10 }}>
                 Shubham Sharma<span style={{ padding: 4 }}>CEO & Founder</span>
@@ -41,12 +41,12 @@ const Tesimonals = () => {
               />
 
               <blockquote>
-                I have been working with <b>ShadowX</b> quite briefly on my
+                I have been working with <b>CodeArtha</b> quite briefly on my
                 personal Startup. Their quality of work, professionalism,
                 knowledge, and follow through has impressed me from day one. Our
                 developer is very responsive and quick to address questions. Our
                 projects can be complex and involve construction of a
-                significant online platforms that <b>ShadowX</b> are very
+                significant online platforms that <b>CodeArtha</b> are very
                 capable of developing. This provider is patient, adaptable, and
                 very competent; I would highly recommend Brickwork.
               </blockquote>

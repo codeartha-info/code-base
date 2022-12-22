@@ -152,13 +152,13 @@ export default function Contact() {
                     <FaEnvelope />
                   </i>
                 </li>
-                <p className="text-dark">shadowx@info.in</p>
+                <p className="text-dark">codearthamail@gmail.com</p>
                 <li>
                   <i className="" style={{ fontSize: 26, color: "#ff4d29" }}>
                     <FaMapMarkerAlt />
                   </i>
                 </li>
-                <p className="text-dark">Sector-62 Noida (UP) India </p>
+                <p className="text-dark">A-133 Sector 63 Noida, India </p>
 
                 <li>
                   <i

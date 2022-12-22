@@ -50,7 +50,7 @@ function Navbar() {
                     className="icon"
                   ></box-icon>
                 </i>
-                <span>shadowx@info.in</span>
+                <span>codearthamail@gmail.com</span>
               </p>
               <p>
                 <i>
@@ -91,9 +91,9 @@ function Navbar() {
         <div className="container">
           <Link className="navbar-brand" to="/">
             <h2>
-              <b style={{ color: "#FE4D29" }}>S</b>ha
-              <b style={{ color: "#FE4D29" }}>D</b>ow
-              <b style={{ color: "#FE4D29" }}>X</b>
+              <b style={{ color: "#FE4D29" }}>C</b>ode
+              <b style={{ color: "#FE4D29" }}>A</b>rth
+              <b style={{ color: "#FE4D29" }}>a</b>
             </h2>
           </Link>
           <button

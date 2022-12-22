@@ -23,10 +23,10 @@ export default function Footer() {
           <div className="row text-center text-md-left">
             <div className="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
               <h5 className="mb-4 font-weight-bold text-black">
-                <strong>ShadowX</strong>
+                <strong>CodeArtha</strong>
               </h5>
               <p>
-                ShadowX offers a range of services from a startup owner to an
+                CodeArtha offers a range of services from a startup owner to an
                 established business. It comprises services like Web , mobile
                 app development, that helps clients to achieve Serenity through
                 Integrity and Innovation.
@@ -122,13 +122,13 @@ export default function Footer() {
                 <i style={{ paddingRight: 4 }}>
                   <FaHome />
                 </i>
-                Sector-62 Noida (UP) India
+                A-133 Sector 63 Noida, India
               </p>
               <p>
                 <i style={{ paddingRight: 4 }}>
                   <FaRegEnvelope />
                 </i>
-                shadowx@info.in
+                codearthamail@gmail.com
               </p>
               <p>
                 <i style={{ paddingRight: 4 }}>
@@ -145,7 +145,7 @@ export default function Footer() {
               <p>Copyright @2022 All rights resererd by : </p>
               <Link to="/home" style={{ cursor: "pointer" }}>
                 <strong className="text-warning">
-                  ShadowX technologies pvt. ltd.{" "}
+                  CodeArtha technologies pvt. ltd.{" "}
                 </strong>
               </Link>
             </div>
