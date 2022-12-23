@@ -65,18 +65,28 @@ function Navbar() {
             </div>
             <div className="col-auto">
               <div className="social-links">
-                <a href="/">
+                <a
+                  href="https://www.facebook.com/codeartha.info/"
+                  target="_blank"
+                >
                   <i>
                     <box-icon name="facebook" type="logo"></box-icon>
                   </i>
+                </a>
+                <a href="https://twitter.com/Codeartha_info/" target="_blank">
                   <i>
-                    {" "}
                     <box-icon name="twitter" type="logo"></box-icon>
                   </i>
+                </a>
+                <a
+                  href="https://www.linkedin.com/codeartha_info/"
+                  target="_blank"
+                >
                   <i>
-                    {" "}
                     <box-icon name="linkedin" type="logo"></box-icon>
                   </i>
+                </a>
+                <a href="https://www.instagram.com/codeartha/" target="_blank">
                   <i>
                     <box-icon name="instagram" type="logo"></box-icon>
                   </i>
@@ -89,12 +99,13 @@ function Navbar() {
 
       <nav className="navbar navbar-expand-lg bg-white">
         <div className="container">
-          <Link className="navbar-brand" to="/">
-            <h2>
+          <Link to="/">
+            <h2 className="navbar-brand">
               <b style={{ color: "#FE4D29" }}>C</b>ode
               <b style={{ color: "#FE4D29" }}>A</b>rth
               <b style={{ color: "#FE4D29" }}>a</b>
             </h2>
+            <p className="slogan">We try our best Elegent & Unique</p>
           </Link>
           <button
             className="navbar-toggler"

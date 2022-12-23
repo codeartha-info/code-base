@@ -157,28 +157,42 @@ export default function Footer() {
                   style={{ fontSize: "26px" }}
                 >
                   <li className="list-inline-item">
-                    <a href="#" className="btn-floating btn-sm text-white">
+                    <a
+                      href="https://twitter.com/Codeartha_info/"
+                      target="_blank"
+                      className="btn-floating btn-sm text-white"
+                    >
                       <i>
                         <FaTwitter />
                       </i>
                     </a>
                   </li>
                   <li className="list-inline-item">
-                    <a href="#" className="btn-floating btn-sm text-white">
+                    <a
+                      href="https://www.facebook.com/codeartha.info/"
+                      target="_blank"
+                      className="btn-floating btn-sm text-white"
+                    >
                       <i>
                         <FaFacebook />
                       </i>
                     </a>
                   </li>
                   <li className="list-inline-item">
-                    <a href="#" className="btn-floating btn-sm text-white">
+                    <a
+                      href="https://www.instagram.com/codeartha/"
+                      className="btn-floating btn-sm text-white"
+                    >
                       <i>
                         <FaInstagram />
                       </i>
                     </a>
                   </li>
                   <li className="list-inline-item">
-                    <a href="#" className="btn-floating btn-sm text-white">
+                    <a
+                      href="https://www.linkedin.com/codeartha_info/"
+                      className="btn-floating btn-sm text-white"
+                    >
                       <i>
                         <FaLinkedin />
                       </i>

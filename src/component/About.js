@@ -12,13 +12,13 @@ function About() {
                 What do you <i style={{ color: "#FE4D29" }}> want to know?</i>
               </h1>
               <p className="p-2 lead">
-                <b className="text-dark">ShadowX</b> Technologies India Private
-                is a global technology services division of{" "}
-                <b className="text-dark">ShadowX</b> Service Coporation. We are
-                a leading provider of information technology service and
-                Solution worldwide. <b className="text-dark">ShadowX</b> founded
-                by 8 September 2022 and is headquarterd at Noida.{" "}
-                <b className="text-dark">ShadowX</b> provide information
+                <b className="text-dark">CodeArtha</b> Technologies India
+                Private is a global technology services division of{" "}
+                <b className="text-dark">CodeArtha</b> Service Coporation. We
+                are a leading provider of information technology service and
+                Solution worldwide. <b className="text-dark">CodeArtha</b>{" "}
+                founded by 21 December 2022 and is headquarterd at Noida.
+                <b className="text-dark">CodeArtha</b> provide information
                 technology engineering service across worldwide.
               </p>
               <button type="button" class="btn btn-light ">
