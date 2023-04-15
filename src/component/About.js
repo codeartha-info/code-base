@@ -6,20 +6,24 @@ function About() {
       <section className=" about ">
         <div className="container my-5  ">
           <div className="text-center"></div>
+          <h3 className="baseColor">Create Your dream to digital world</h3>
           <div className="row my-2">
             <div className="col-sm-12 col-md-6 col-lg-6 col-12">
               <h1>
-                What do you <i style={{ color: "#FE4D29" }}> want to know?</i>
+                What do you <i className="baseColor"> want to know?</i>
               </h1>
-              <p className="p-2 lead">
-                <b className="text-dark">CodeArtha</b> Technologies India
-                Private is a global technology services division of{" "}
-                <b className="text-dark">CodeArtha</b> Service Coporation. We
-                are a leading provider of information technology service and
-                Solution worldwide. <b className="text-dark">CodeArtha</b>{" "}
-                founded by 21 December 2022 and is headquarterd at Noida.
-                <b className="text-dark">CodeArtha</b> provide information
-                technology engineering service across worldwide.
+              <p className="p-2">
+                <b className="baseColor">C</b>ode
+                <b className="baseColor">A</b>rth
+                <b className="baseColor">a</b> Technologies Pvt Ltd founded by
+                21 December 2022 and is headquarterd at Noida India.
+                <p>
+                  CodeArtha Technologies specializes in providing innovative
+                  solutions to meet the ever-evolving needs of businesses in the
+                  digital age. Our team of experienced software developers and
+                  IT professionals is dedicated to delivering top-quality
+                  services to our clients.
+                </p>
               </p>
               <button type="button" class="btn btn-light ">
                 More about me
@@ -27,7 +31,7 @@ function About() {
             </div>
             <div className="col-sm-12 col-md-6 col-lg-6 col-12 ">
               <img
-                src={require("../image/about.png")}
+                src={require("../image/AboutPage.png")}
                 className="img-fluid  "
               />
             </div>
@@ -38,8 +42,8 @@ function About() {
           <div className="row ">
             <div className="col-md-6  ">
               <h4>
-                <b style={{ color: "#ff4d29" }}>O</b>ur{" "}
-                <b style={{ color: "#ff4d29" }}>V</b>ision
+                <b className="baseColor">O</b>ur <b className="baseColor">V</b>
+                ision
               </h4>
               <div className="">
                 <p>
@@ -52,8 +56,8 @@ function About() {
             </div>
             <div className="col-md-6 ">
               <h4>
-                <b style={{ color: "#ff4d29" }}>O</b>ur{" "}
-                <b style={{ color: "#ff4d29" }}>M</b>ission
+                <b className="baseColor">O</b>ur <b className="baseColor">M</b>
+                ission
               </h4>
               <div className="">
                 <p>

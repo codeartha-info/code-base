@@ -3,11 +3,9 @@ import "../service.css";
 import {
   FaLaptop,
   FaChartLine,
-  FaPhoneSquare,
   FaUncharted,
   FaWaveSquare,
 } from "react-icons/fa";
-import Footer from "./Footer";
 function Service() {
   return (
     <>
@@ -173,7 +171,6 @@ function Service() {
         <h1 className="text-center mt-3  fw-bold" style={{ color: "#854dff" }}>
           Our Service
         </h1>
-        <hr />
         <p className="text-center text-muted">
           IT Solution Strategy Development for your Business
         </p>

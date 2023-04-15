@@ -5,13 +5,12 @@ import Contact from "./Contact";
 import Faqt from "./Faqt";
 import Footer from "./Footer";
 import Service from "./Service";
-import Tesimonals from "./Tesimonals";
 import Information from "./Information";
 import { Link } from "react-router-dom";
-import { AllServices } from "./AllServices";
-import Technologies from "./Technologies";
 
 export default function Home() {
+  let baseColor = "#854dff";
+
   return (
     <>
       <div className="slider-wrapper">
@@ -23,7 +22,7 @@ export default function Home() {
                   We craft digital experience
                   <p>Develop your Ideas into reality</p>
                 </h6>
-                <h1 className="display-2 my-3 text-white">
+                <h1 className="display-2 my-3 baseColor">
                   Web & Mobile
                   <br /> App Development
                 </h1>
@@ -41,7 +40,7 @@ export default function Home() {
 
       <Service />
       <Information />
-      <Tesimonals />
+      {/* <Tesimonals /> */}
       <Blog />
       <Contact />
       <Faqt />

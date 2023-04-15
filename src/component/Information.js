@@ -1,49 +1,39 @@
 import React from "react";
-import "./info.css";
-// import { FontAwesomeIcon } from '@fortawesome/fontawesome'
-import {
-  FaLaptop,
-  FaCode,
-  FaCodeBranch,
-  FaNetworkWired,
-  FaFileExport,
-  FaUserCheck,
-  FaUserTag,
-  FaUsersSlash,
-} from "react-icons/fa";
+import "../CSS/home.css";
+import { FaUserCheck, FaUserTag, FaIndustry } from "react-icons/fa";
+import { MdAccountBalance } from "react-icons/md";
 
 const Information = () => {
   return (
     <>
-      <section className="pt-3">
+      <section className="pt-2 bgColor">
         <div className="container mt-5">
-          <div className="text-center my-5">
-            <h2 style={{ color: "#854dff" }}>About in Number</h2>
+          <div className="text-center">
+            <h2 className="baseColor">We are proud of our Work</h2>
             <p>
               We belive the high quality service and good promises, have to be
               also backed up with good numbers.
             </p>
-            <hr />
           </div>
 
           <div className="row flex-container">
-            <div className="col-md-4 mb-d-0 mb-5">
-              <div class="card border-0">
+            <div className="col-md-3 mb-d-0">
+              <div class="card border-0 bgColor">
                 <div class="card-body  text-center">
-                  <i style={{ fontSize: 40, color: "#fe4d29" }}>
-                    <FaUsersSlash />
+                  <i className="numberOfWork">
+                    <FaIndustry />
                   </i>
-                  <h2>02</h2>
+                  <h2>02+</h2>
                   <p class="card-text" style={{ fontWeight: 900 }}>
-                    Industry Experience
+                    Year of customer focus service
                   </p>
                 </div>
               </div>
             </div>
-            <div className="col-md-4 mb-d-0 mb-5">
-              <div class="card border-0">
+            <div className="col-md-3 mb-d-0 mb-5">
+              <div class="card border-0 bgColor">
                 <div class="card-body  text-center">
-                  <i style={{ fontSize: 40, color: "#fe4d29" }}>
+                  <i className="numberOfWork">
                     <FaUserTag />
                   </i>
                   <h2>02</h2>
@@ -54,13 +44,26 @@ const Information = () => {
               </div>
             </div>
 
-            <div className="col-md-4 mb-d-0 mb-5">
-              <div class="card border-0">
+            <div className="col-md-3 mb-d-0 mb-5">
+              <div class="card border-0 bgColor">
                 <div class="card-body  text-center">
-                  <i style={{ fontSize: 40, color: "#fe4d29" }}>
+                  <i className="numberOfWork">
+                    <MdAccountBalance />
+                  </i>
+                  <h2>03+</h2>
+                  <p class="card-text" style={{ fontWeight: 900 }}>
+                    Countries we have happy Clients
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-3 mb-d-0 mb-5">
+              <div class="card border-0 bgColor">
+                <div class="card-body  text-center">
+                  <i className="numberOfWork">
                     <FaUserCheck />
                   </i>
-                  <h2>01</h2>
+                  <h2>02+</h2>
                   <p class="card-text" style={{ fontWeight: 900 }}>
                     Deliverd Project
                   </p>

@@ -1,0 +1,25 @@
+element {
+    --brand-color: #854dff;
+}
+
+
+:root {
+    --baseColor : #854dff;
+    --bgColor : #f2f7ff;
+    --footerColor : #061551;
+    --upperColor : #202c59;
+}
+
+.bgColor{
+    background-color: var(--bgColor);
+}
+
+.baseColor {
+    color: var(--baseColor);
+}
+
+.numberOfWork{
+    color: var(--baseColor);
+    font-size: 40px;
+}
+   

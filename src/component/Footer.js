@@ -3,8 +3,6 @@ import {
   FaHome,
   FaRegEnvelope,
   FaPhone,
-  FaUncharted,
-  FaPrint,
   FaTwitter,
   FaFacebook,
   FaInstagram,
@@ -13,17 +11,23 @@ import {
 import { Link } from "react-router-dom";
 
 export default function Footer() {
+  let linkColor = "#854dff";
   return (
     <>
       <footer
-        className=" text-white pt-3 pb-4"
-        style={{ backgroundColor: "#ff4d29" }}
+        className=" text-white pt-1"
+        style={{ backgroundColor: "#061551" }}
       >
         <div className="container text-center text-md-left">
           <div className="row text-center text-md-left">
             <div className="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-              <h5 className="mb-4 font-weight-bold text-black">
-                <strong>CodeArtha</strong>
+              <h5
+                className="mb-1 font-weight-bold"
+                style={{ color: linkColor }}
+              >
+                <strong style={{ cursor: "pointer" }}>
+                  CodeArtha Technologies
+                </strong>
               </h5>
               <p>
                 CodeArtha offers a range of services from a startup owner to an
@@ -32,11 +36,15 @@ export default function Footer() {
                 Integrity and Innovation.
               </p>
             </div>
+
             <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-              <h5 className="text-uppercase mb-4 font-weifht-bold text-black">
-                <strong>Service</strong>
+              <h5
+                className="mb-1 font-weifht-bold"
+                style={{ color: linkColor }}
+              >
+                <strong>Our Service</strong>
               </h5>
-              <p>
+              <p className="mb-1">
                 <Link
                   to="/all-service"
                   className="text-white"
@@ -45,7 +53,7 @@ export default function Footer() {
                   Web Development
                 </Link>
               </p>
-              <p>
+              <p className="mb-1">
                 <Link
                   to="/all-service"
                   className="text-white "
@@ -54,7 +62,7 @@ export default function Footer() {
                   App Development
                 </Link>
               </p>
-              <p>
+              <p className="mb-1">
                 <Link
                   to="/all-service"
                   className="text-white"
@@ -63,7 +71,7 @@ export default function Footer() {
                   Digital Marketing
                 </Link>
               </p>
-              <p>
+              <p className="mb-1">
                 <Link
                   to="/all-service"
                   className="text-white"
@@ -72,12 +80,34 @@ export default function Footer() {
                   UI/UX Design
                 </Link>
               </p>
+              <p className="mb-1">
+                <Link
+                  to="/all-service"
+                  className="text-white"
+                  style={{ textDecoration: "none" }}
+                >
+                  E-Commerce
+                </Link>
+              </p>
+              <p className="mb-1">
+                <Link
+                  to="/all-service"
+                  className="text-white"
+                  style={{ textDecoration: "none" }}
+                >
+                  DevOps
+                </Link>
+              </p>
             </div>
             <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-              <h5 className="text-uppercase mb-4 font-weifht-bold text-black">
-                <strong>Use Ful links</strong>
+              {/* <h5 className="text-uppercase mb-4 font-weifht-bold text-black"> */}
+              <h5
+                className="mb-1 font-weifht-bold"
+                style={{ color: linkColor }}
+              >
+                <strong>Useful Links</strong>
               </h5>
-              <p>
+              <p className="mb-1">
                 <Link
                   to="/"
                   className="text-white"
@@ -86,7 +116,7 @@ export default function Footer() {
                   Home
                 </Link>
               </p>
-              <p>
+              <p className="mb-1">
                 <Link
                   to="/about"
                   className="text-white "
@@ -95,7 +125,7 @@ export default function Footer() {
                   About
                 </Link>
               </p>
-              <p>
+              <p className="mb-1">
                 <Link
                   to="/project-request-form"
                   className="text-white"
@@ -104,19 +134,31 @@ export default function Footer() {
                   Cantact
                 </Link>
               </p>
-              <p>
+              <p className="mb-1">
                 <Link
                   to="/"
                   className="text-white"
                   style={{ textDecoration: "none" }}
                 >
-                  Portfilo
+                  Portfolio
+                </Link>
+              </p>
+              <p className="mb-1">
+                <Link
+                  to="/"
+                  className="text-white"
+                  style={{ textDecoration: "none" }}
+                >
+                  Career
                 </Link>
               </p>
             </div>
             <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-              <h5 className="text-uppercase mb-4 font-weifht-bold text-black">
-                <strong>Contach</strong>
+              <h5
+                className="mb-1 font-weifht-bold"
+                style={{ color: linkColor }}
+              >
+                <strong>Contact</strong>
               </h5>
               <p>
                 <i style={{ paddingRight: 4 }}>
@@ -128,13 +170,13 @@ export default function Footer() {
                 <i style={{ paddingRight: 4 }}>
                   <FaRegEnvelope />
                 </i>
-                codearthamail@gmail.com
+                teamcodeartha@gmail.com
               </p>
               <p>
                 <i style={{ paddingRight: 4 }}>
                   <FaPhone />
                 </i>
-                +91 9634139574 +91 7351500899
+                +91 6396978565, +91 8279611393
               </p>
             </div>
           </div>
@@ -142,12 +184,14 @@ export default function Footer() {
           <hr />
           <div className="row align-items-center">
             <div className="col-md-8 col-lg-8">
-              <p>Copyright @2022 All rights resererd by : </p>
-              <Link to="/home" style={{ cursor: "pointer" }}>
-                <strong className="text-warning">
-                  CodeArtha technologies pvt. ltd.{" "}
-                </strong>
-              </Link>
+              <p>
+                Copyright @{new Date().getFullYear()} All rights resererd by :{" "}
+              </p>
+              <p>
+                <Link to="/home">
+                  <i className="baseColor">CodeArtha Technologies Pvt Ltd.</i>
+                </Link>
+              </p>
             </div>
 
             <div className="col-md-4 col-lg-4">
@@ -161,6 +205,7 @@ export default function Footer() {
                       href="https://twitter.com/Codeartha_info/"
                       target="_blank"
                       className="btn-floating btn-sm text-white"
+                      style={{ cursor: "pointer" }}
                     >
                       <i>
                         <FaTwitter />
@@ -172,6 +217,7 @@ export default function Footer() {
                       href="https://www.facebook.com/codeartha.info/"
                       target="_blank"
                       className="btn-floating btn-sm text-white"
+                      style={{ cursor: "pointer" }}
                     >
                       <i>
                         <FaFacebook />
@@ -182,6 +228,7 @@ export default function Footer() {
                     <a
                       href="https://www.instagram.com/codeartha/"
                       className="btn-floating btn-sm text-white"
+                      style={{ cursor: "pointer" }}
                     >
                       <i>
                         <FaInstagram />
@@ -192,6 +239,7 @@ export default function Footer() {
                     <a
                       href="https://www.linkedin.com/codeartha_info/"
                       className="btn-floating btn-sm text-white"
+                      style={{ cursor: "pointer" }}
                     >
                       <i>
                         <FaLinkedin />

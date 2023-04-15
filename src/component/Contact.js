@@ -41,9 +41,9 @@ export default function Contact() {
               <div className="row my-2">
                 <div className="col-sm-12 col-md-6 col-lg-6 col-12">
                   <h2>
-                    <b style={{ color: "#ff4d29" }}>G</b>et{" "}
-                    <b style={{ color: "#ff4d29" }}>i</b>n{" "}
-                    <b style={{ color: "#ff4d29" }}>T</b>ouch
+                    <b className="baseColor">G</b>et{" "}
+                    <b className="baseColor">i</b>n{" "}
+                    <b className="baseColor">T</b>ouch
                   </h2>
 
                   <p>
@@ -59,7 +59,7 @@ export default function Contact() {
                 </div>
                 <div className="col-sm-12 col-md-6 col-lg-6 col-12 ">
                   <img
-                    src={require("../image/contact.png")}
+                    src={require("../image/GetInTouch.png")}
                     className="img-fluid  "
                   />
                 </div>
@@ -145,26 +145,20 @@ export default function Contact() {
             <div className="col-md-3 text-center ">
               <ul className="list-unstyled mt-3 mb-0 ">
                 <li>
-                  <i
-                    className="mt-4"
-                    style={{ fontSize: 26, color: "#ff4d29" }}
-                  >
+                  <i className="mt-4 baseColor" style={{ fontSize: 26 }}>
                     <FaEnvelope />
                   </i>
                 </li>
                 <p className="text-dark">codearthamail@gmail.com</p>
                 <li>
-                  <i className="" style={{ fontSize: 26, color: "#ff4d29" }}>
+                  <i className="baseColor" style={{ fontSize: 26 }}>
                     <FaMapMarkerAlt />
                   </i>
                 </li>
                 <p className="text-dark">A-133 Sector 63 Noida, India </p>
 
                 <li>
-                  <i
-                    className="mt-4"
-                    style={{ fontSize: 26, color: "#ff4d29" }}
-                  >
+                  <i className="mt-4 baseColor" style={{ fontSize: 24 }}>
                     <FaPhone />
                   </i>
                 </li>

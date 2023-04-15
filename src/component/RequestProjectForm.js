@@ -41,12 +41,12 @@ const RequestProjectForm = () => {
               <div className="row my-2">
                 <div className="col-sm-12 col-md-6 col-lg-6 col-12">
                   <h2>
-                    <b style={{ color: "#ff4d29" }}>G</b>et{" "}
-                    <b style={{ color: "#ff4d29" }}>i</b>n{" "}
-                    <b style={{ color: "#ff4d29" }}>T</b>ouch
+                    <b className="baseColor">G</b>et{" "}
+                    <b className="baseColor">i</b>n{" "}
+                    <b className="baseColor">T</b>ouch
                   </h2>
 
-                  <p className=" mx-auto mb-5">
+                  <p className=" mx-auto mb-2">
                     Have specific application or technology integration
                     requirements? Get in touch with us. We would be glad to help
                     you.
@@ -63,7 +63,7 @@ const RequestProjectForm = () => {
                 </div>
                 <div className="col-sm-12 col-md-6 col-lg-6 col-12 ">
                   <img
-                    src={require("../image/contact.png")}
+                    src={require("../image/GetInTouch.png")}
                     className="img-fluid  "
                   />
                 </div>
@@ -74,7 +74,7 @@ const RequestProjectForm = () => {
           <div className="row">
             <div className="col-md-4 text-center ">
               <img
-                src={require("../image/contact_team.png")}
+                src={require("../image/ContactOurTeam.png")}
                 className="img-fluid  "
               />
             </div>
@@ -147,22 +147,6 @@ const RequestProjectForm = () => {
                       </label>
                       <input
                         name="serviceName"
-                        type="text"
-                        class="form-control"
-                        id="exampleInputPassword1"
-                      />
-                    </div>
-                  </div>
-                </div>
-
-                <div class="mb-3 row">
-                  <div className="col-md-12">
-                    <div class="mb-0 md-form ">
-                      <label for="exampleInputPassword1" class="form-label">
-                        Write a service
-                      </label>
-                      <input
-                        name="serviceNameDesc"
                         type="text"
                         class="form-control"
                         id="exampleInputPassword1"

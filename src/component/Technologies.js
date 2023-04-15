@@ -4,10 +4,8 @@ const Technologies = () => {
   return (
     <>
       <div class="container">
-        <h1 className="text-center mt-3  fw-bold" style={{ color: "#ff4d29" }}>
-          Technologies
-        </h1>
-        <hr />
+        <h1 className="text-center mt-3  fw-bold baseColor">Technologies</h1>
+
         <p className="text-center text-muted">
           technology by itself doesn't make leaders. Technology only amplifiers
           true leadership.

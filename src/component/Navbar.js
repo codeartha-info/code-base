@@ -36,6 +36,8 @@ function Navbar() {
       );
   };
 
+  let baseColor = "#854dff";
+
   return (
     <>
       <Chat />
@@ -44,9 +46,9 @@ function Navbar() {
         <div className="container">
           <Link to="/">
             <h2 className="navbar-brand">
-              <b style={{ color: "#FE4D29" }}>C</b>ode
-              <b style={{ color: "#FE4D29" }}>A</b>rth
-              <b style={{ color: "#FE4D29" }}>a</b>
+              <b style={{ color: baseColor }}>C</b>ode
+              <b style={{ color: baseColor }}>A</b>rth
+              <b style={{ color: baseColor }}>a</b>
             </h2>
             <p className="slogan">We try our best Elegent & Unique</p>
           </Link>

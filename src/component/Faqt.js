@@ -5,15 +5,13 @@ import "../service.css";
 const Faqt = () => {
   return (
     <>
-      <section style={{ backgroundColor: "#efefef" }} className="pt-3">
+      <section className="bgColor pt-3">
         <div className="container mt-5">
           <div className="row flex-container">
             <div className="col-md-6 mb-d-0 mb-5">
               <div class="card">
                 <div class="card-body">
-                  <h5 class="card-title" style={{ color: "#FE4D29" }}>
-                    -FAQ
-                  </h5>
+                  <h5 class="card-title baseColor">-FAQ</h5>
                   <p class="card-text display-5" style={{ fontWeight: 900 }}>
                     Some comman FaQuestion and answer{" "}
                   </p>
