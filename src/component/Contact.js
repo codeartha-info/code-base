@@ -163,7 +163,7 @@ export default function Contact() {
                   </i>
                 </li>
                 <p className="text-dark">
-                  +91 9634139574 <br /> +91 7351500899
+                  +91 6396978565 <br /> +91 8279611393
                 </p>
               </ul>
             </div>
