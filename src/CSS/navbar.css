@@ -1,0 +1,19 @@
+.navbar{
+    box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.08);
+}
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link:active{
+    color: var(--baseColor);
+    font-weight: 600;
+}
+
+.btn-brand{
+    background-color: var(--baseColor);
+    color: #fff;
+    border-color: var(--baseColor);
+}
+
+.btn-brand:hover{
+    color: #ffffff;
+    background-color: #061551;;
+}

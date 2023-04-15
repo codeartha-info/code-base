@@ -1,4 +1,10 @@
 
+:root {
+ --baseColor : #854dff;
+ --bgColor : #f2f7ff;
+ --footerColor : #061551;
+ --upperColor : #202c59;
+}
 
 .containerService{
     width: 100%;
@@ -15,7 +21,7 @@
 }
 .containerService h1::after{
     content: '';
-    background-color: #FE4D29;
+    background-color: var(--baseColor);
     width: 150px;
     height: 5px;
     position: absolute;
@@ -37,14 +43,14 @@
  .service i {
     font-size: 40px;
     margin-bottom: 10px;
-    color: #FE4D29;
+    color: var(--baseColor);
 }
 .service h2{
     font-weight: 600;
     margin-bottom: 14px;
 }
 .service:hover{
-    background-color: #FE4D29;
+    background-color:  var(--baseColor);
     color: white;
     transform: scale(1.05);
     

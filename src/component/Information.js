@@ -18,7 +18,7 @@ const Information = () => {
       <section className="pt-3">
         <div className="container mt-5">
           <div className="text-center my-5">
-            <h2 style={{ color: "#ff4d29" }}>About in Number</h2>
+            <h2 style={{ color: "#854dff" }}>About in Number</h2>
             <p>
               We belive the high quality service and good promises, have to be
               also backed up with good numbers.

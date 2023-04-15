@@ -1,6 +1,5 @@
 import React from "react";
 import "../service.css";
-// import { FontAwesomeIcon } from '@fortawesome/fontawesome'
 import {
   FaLaptop,
   FaChartLine,
@@ -12,7 +11,7 @@ import Footer from "./Footer";
 function Service() {
   return (
     <>
-      <section className=" about my-5">
+      {/* <section className=" about my-5">
         <div className="container  ">
           <h2 className="text-center mt-3  " style={{ color: "#ff4d29" }}>
             We provide you with high quality technology services
@@ -168,10 +167,10 @@ function Service() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
-      {/* <div class="container">
-        <h1 className="text-center mt-3  fw-bold" style={{ color: "#ff4d29" }}>
+      <div class="container">
+        <h1 className="text-center mt-3  fw-bold" style={{ color: "#854dff" }}>
           Our Service
         </h1>
         <hr />
@@ -187,8 +186,9 @@ function Service() {
                 </i>
                 <h2>Web Development</h2>
                 <p>
-                  We are create all types of web-based software and ensure great
-                  experience for web users.
+                  A web development agency specializes in building, designing,
+                  deploying, updating, and maintaining websites and web
+                  applications.
                 </p>
               </div>
             </div>
@@ -202,9 +202,9 @@ function Service() {
                 </i>
                 <h2>UI/UX Design</h2>
                 <p>
-                  UI/UX creates a connection between the user and the service
-                  provider, improve customer satisfaction, improve user
-                  interaction, as well as boost your business grow and enhance
+                  UI/UX creates a connection between user and service provider,
+                  improve customer satisfaction, improve user interaction, as
+                  well as boost your business grow and enhance.
                 </p>
               </div>
             </div>
@@ -215,7 +215,7 @@ function Service() {
                 <i>
                   <FaLaptop />
                 </i>
-                <h2>App Devlopmem</h2>
+                <h2>App Devlopmemt</h2>
                 <p>
                   Mobile application development is the set of processes and
                   procedures involved in writing software for small, wireless
@@ -245,12 +245,11 @@ function Service() {
                 <i>
                   <FaLaptop />
                 </i>
-                <h2>Wordpress </h2>
+                <h2>E-commerce </h2>
                 <p>
-                  WordPress design and implement websites for using the
-                  WordPress creation tool. They are responsible for both
-                  front-end and back-end development, including the
-                  implementation of our requirements..
+                  E-commerce is the buying and selling of goods or services via
+                  the internet, and the transfer of money and data to complete
+                  the sales.
                 </p>
               </div>
             </div>
@@ -261,18 +260,17 @@ function Service() {
                 <i>
                   <FaWaveSquare />
                 </i>
-                <h2>Quality Assurance & PRA</h2>
+                <h2>DevOps</h2>
                 <p>
-                  I was do any systematic process of determining whether a
-                  product or service meets specified requirements. QA
-                  establishes and maintains set requirements for developing or
-                  manufacturing reliable products.
+                  DevOps integrates and automates the work of software
+                  development and IT operations as a means for improving and
+                  shortening the systems development life cycle.
                 </p>
               </div>
             </div>
           </div>
         </div>
-      </div> */}
+      </div>
     </>
   );
 }

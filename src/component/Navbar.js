@@ -4,8 +4,9 @@ import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../../node_modules/bootstrap/dist/js/bootstrap.bundle";
 import emailjs from "emailjs-com";
 import "boxicons";
-import "../index.css";
+import "../CSS/navbar.css";
 import { Chat } from "./Chat";
+import TopNav from "./TopNav";
 
 function Navbar() {
   const form = useRef();
@@ -38,65 +39,7 @@ function Navbar() {
   return (
     <>
       <Chat />
-      <nav className="top-nav" id="home">
-        <div className="container">
-          <div className="row justify-content-between">
-            <div className="col-auto">
-              <p className="icons">
-                <i>
-                  <box-icon
-                    type="solid"
-                    name="envelope"
-                    className="icon"
-                  ></box-icon>
-                </i>
-                <span>codearthamail@gmail.com</span>
-              </p>
-              <p>
-                <i>
-                  <box-icon
-                    name="phone-call"
-                    type="solid"
-                    className="icon"
-                  ></box-icon>
-                </i>
-                <span>+91 9634139574 &nbsp; +91 7351500899</span>
-              </p>
-            </div>
-            <div className="col-auto">
-              <div className="social-links">
-                <a
-                  href="https://www.facebook.com/codeartha.info/"
-                  target="_blank"
-                >
-                  <i>
-                    <box-icon name="facebook" type="logo"></box-icon>
-                  </i>
-                </a>
-                <a href="https://twitter.com/Codeartha_info/" target="_blank">
-                  <i>
-                    <box-icon name="twitter" type="logo"></box-icon>
-                  </i>
-                </a>
-                <a
-                  href="https://www.linkedin.com/codeartha_info/"
-                  target="_blank"
-                >
-                  <i>
-                    <box-icon name="linkedin" type="logo"></box-icon>
-                  </i>
-                </a>
-                <a href="https://www.instagram.com/codeartha/" target="_blank">
-                  <i>
-                    <box-icon name="instagram" type="logo"></box-icon>
-                  </i>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </nav>
-
+      <TopNav />
       <nav className="navbar navbar-expand-lg bg-white">
         <div className="container">
           <Link to="/">
