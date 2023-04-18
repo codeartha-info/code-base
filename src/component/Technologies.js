@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Technologies = () => {
   return (
@@ -7,119 +8,67 @@ const Technologies = () => {
         <h1 className="text-center mt-3  fw-bold baseColor">Technologies</h1>
 
         <p className="text-center text-muted">
-          technology by itself doesn't make leaders. Technology only amplifiers
+          Technology by itself doesn't make leaders. Technology only amplifiers
           true leadership.
         </p>
-        <div class="row my-3 ">
-          <div class="col-2 col-sm-2 col-md-2 m-auto">
-            <div className="card border-0 shadow text-center my-3 ">
-              <div className="card-body service">
-                <div class="card">
-                  {/* <img src="..." class="card-img-top" alt="..." /> */}
-                  <div class="card-body">
-                    <h5 class="card-title">Java</h5>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-2 col-sm-2 col-md-2 m-auto">
-            <div className="card border-0 shadow text-center my-3 ">
-              <div className="card-body service">
-                <div class="card">
-                  {/* <img src="..." class="card-img-top" alt="..." /> */}
-                  <div class="card-body">
-                    <h5 class="card-title">Spring Boot</h5>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-2 col-sm-2 col-md-2 m-auto">
-            <div className="card border-0 shadow text-center my-3 ">
-              <div className="card-body service">
-                <div class="card">
-                  {/* <img src="..." class="card-img-top" alt="..." /> */}
-                  <div class="card-body">
-                    <h5 class="card-title">React JS</h5>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+        {/* <div>
+          <ul class="nav">
+            <li class="nav-item">
+              <Link
+                class="nav-link"
+                aria-current="page"
+                to="/all-service/frontend_technologies"
+              >
+                Frontend
+              </Link>
+            </li>
+            <li class="nav-item">
+              <Link class="nav-link" to="/all-service/backend_technologies">
+                Backend
+              </Link>
+            </li>
+            <li class="nav-item">
+              <Link class="nav-link" to="/all-service/devops">
+                DevOps
+              </Link>
+            </li>
+          </ul>
+        </div> */}
 
-          <div class="col-2 col-sm-2 col-md-2 m-auto">
-            <div className="card border-0 shadow text-center my-3 ">
-              <div className="card-body service">
-                <div class="card">
-                  {/* <img src="..." class="card-img-top" alt="..." /> */}
-                  <div class="card-body">
-                    <h5 class="card-title">JDBC </h5>
-                  </div>
-                </div>
-              </div>
-            </div>
+        <div class="card text-center">
+          <div class="card-header">
+            <ul class="nav nav-pills card-header-pills">
+              <li class="nav-item">
+                <Link class="nav-link " to="/all-service/frontend_technologies">
+                  Frontend
+                </Link>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  Link
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link disabled"
+                  href="#"
+                  tabindex="-1"
+                  aria-disabled="true"
+                >
+                  Disabled
+                </a>
+              </li>
+            </ul>
           </div>
-
-          <div class="col-2 col-sm-2 col-md-2 m-auto">
-            <div className="card border-0 shadow text-center my-3 ">
-              <div className="card-body service">
-                <div class="card">
-                  {/* <img src="..." class="card-img-top" alt="..." /> */}
-                  <div class="card-body">
-                    <h5 class="card-title">Hibernate</h5>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-2 col-sm-2 col-md-2 m-auto">
-            <div className="card border-0 shadow text-center my-3 ">
-              <div className="card-body service">
-                <div class="card">
-                  {/* <img src="..." class="card-img-top" alt="..." /> */}
-                  <div class="card-body">
-                    <h5 class="card-title">Servlet</h5>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-2 col-sm-2 col-md-2 m-auto">
-            <div className="card border-0 shadow text-center my-3 ">
-              <div className="card-body service">
-                <div class="card">
-                  {/* <img src="..." class="card-img-top" alt="..." /> */}
-                  <div class="card-body">
-                    <h5 class="card-title">Microservices</h5>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-2 col-sm-2 col-md-2 m-auto">
-            <div className="card border-0 shadow text-center my-3 ">
-              <div className="card-body service">
-                <div class="card">
-                  {/* <img src="..." class="card-img-top" alt="..." /> */}
-                  <div class="card-body">
-                    <h5 class="card-title">React Native</h5>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-2 col-sm-2 col-md-2 m-auto">
-            <div className="card border-0 shadow text-center my-3 ">
-              <div className="card-body service">
-                <div class="card">
-                  {/* <img src="..." class="card-img-top" alt="..." /> */}
-                  <div class="card-body">
-                    <h5 class="card-title">Swagger</h5>
-                  </div>
-                </div>
-              </div>
-            </div>
+          <div class="card-body">
+            <h5 class="card-title">Special title treatment</h5>
+            <p class="card-text">
+              With supporting text below as a natural lead-in to additional
+              content.
+            </p>
+            <a href="#" class="btn btn-primary">
+              Go somewhere
+            </a>
           </div>
         </div>
       </div>

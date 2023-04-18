@@ -22,7 +22,7 @@ export default function Home() {
                   We craft digital experience
                   <p>Develop your Ideas into reality</p>
                 </h6>
-                <h1 className="display-2 my-3 baseColor">
+                <h1 className="display-2 my-3 baseColor ">
                   Web & Mobile
                   <br /> App Development
                 </h1>
