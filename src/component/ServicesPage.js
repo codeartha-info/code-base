@@ -7,7 +7,7 @@ const ServicesPage = () => {
   return (
     <>
       <Service />
-      <Technologies />
+      {/* <Technologies /> */}
       <Footer />
     </>
   );
